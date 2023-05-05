@@ -8,7 +8,7 @@ function App() {
 			<div className="bg-gray w-[50%] absolute top-0 right-0 h-[30rem] opacity-20 rounded-bl-[6rem] z-[-1] lg:w-[60%] lg:h-[25rem]"></div>
 			<header className=" pt-8 ml-12 lg:mx-20 flex items-center justify-between ">
 				<img src={logo} alt="logo" className="" />
-				<MobileMenu />
+				<MobileMenu className="lg:hidden" />
 				<ul className="lg:flex lg:items-center lg:gap-16 hidden">
 					<li className="uppercase text-navy font-bold hover:cursor-pointer hover:underline hover:underline-offset-4">
 						Product
